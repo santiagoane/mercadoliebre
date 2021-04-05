@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const puerto = process.env.PORT;
+const port = process.env.PORT;
 const path = require('path');
 console.log('Santi Probando')
 app.use(express.static('public'));
