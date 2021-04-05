@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Registro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/css/register.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="​https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css​">
+</head>
+<header class="main-header">
+
+
+    <div class="main-header-top-bar">
+        <img src="/images/logo-mercado-liebre.svg" class="logo" width="360" alt="Logo de MercadoLiebre">
+
+</header>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+<main>
+    <p class="title">Vamos a crear tu cuenta!</p>
+    <form action="resultado.html" method="POST">
+
+        <label minlength="3" for="name&sirname">Nombre y Apellido</label>
+        <input required type="text" name="name&sirname" id="name&sirname" placeholder="Nombre y Apellido">
+
+        <label minlength="3" for="username">Nombre de Usuario</label>
+        <input required type="text" name="username" id="username" placeholder="Nombre de Usuario">
+
+        <label for="dateofbirth">Fecha de Nacimiento</label>
+        <input required type="date" name="dateofbirth" id="dateofbirth" placeholder="Fecha de Nacimiento">
+
+        <label minlength="3" for="adress">Dirección</label>
+        <input required type="text" name="adress" id="adress" placeholder="Ej: Calle 484 nro 2929">
+
+        <p class="title2">Tipo de Cuenta</p>
+        <label for="typeofaccount">Comprador</label>
+        <input type="radio" value="Comprar" id="typeofaccount">
+        <label for="typeofaccount">Vendedor</label>
+        <input type="radio" value="Vender" id="typeofaccount">
+
+        <p class="title2">Categorias de interés</p>
+        <label for="catofinterest">Electro</label>
+        <input type="checkbox" value="Electro" id="catofinterest">
+        <label for="catofinterest">Moda</label>
+        <input type="checkbox" value="Moda" id="catofinterest">
+        <label for="catofinterest">Hogar</label>
+        <input type="checkbox" value="Hogar" id="catofinterest">
+        <label for="catofinterest">Juguetería</label>
+        <input type="checkbox" value="Juguetería" id="catofinterest">
+        <label for="catofinterest">Electro</label>
+        <input type="checkbox" value="Electro" id="catofinterest">
+        
+
+        <br>
+        <br>
+        <br>
+    
+
+        <label for="avatar ">Foto de Perfil</label>
+        <input type="file" value="avatar" id="avatar">
+
+        <label minlength="3" for="adress">Contraseña</label>
+        <input required type="password" name="adress" id="adress" placeholder="Contraseña">
+
+        <label minlength="3" for="adress">Confirmar Contraseña</label>
+        <input required type="password" name="adress" id="adress" placeholder="Contraseña">
+
+        <input class="botones-de-accion" type="submit" value="Enviar">
+        <input class="botones-de-accion" type="submit" value="Borrar Todo">
+        
+
+    </form>
+
+</main>
+
+</body>
+
+</html>
