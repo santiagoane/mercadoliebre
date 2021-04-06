@@ -26,62 +26,87 @@
     <br>
     <br>
     <br>
-<main>
-    <p class="title">Vamos a crear tu cuenta!</p>
-    <form action="resultado.html" method="POST">
-
-        <label minlength="3" for="name&sirname">Nombre y Apellido</label>
-        <input required type="text" name="name&sirname" id="name&sirname" placeholder="Nombre y Apellido">
-
-        <label minlength="3" for="username">Nombre de Usuario</label>
-        <input required type="text" name="username" id="username" placeholder="Nombre de Usuario">
-
-        <label for="dateofbirth">Fecha de Nacimiento</label>
-        <input required type="date" name="dateofbirth" id="dateofbirth" placeholder="Fecha de Nacimiento">
-
-        <label minlength="3" for="adress">Dirección</label>
-        <input required type="text" name="adress" id="adress" placeholder="Ej: Calle 484 nro 2929">
-
-        <p class="title2">Tipo de Cuenta</p>
-        <label for="typeofaccount">Comprador</label>
-        <input type="radio" value="Comprar" id="typeofaccount">
-        <label for="typeofaccount">Vendedor</label>
-        <input type="radio" value="Vender" id="typeofaccount">
-
-        <p class="title2">Categorias de interés</p>
-        <label for="catofinterest">Electro</label>
-        <input type="checkbox" value="Electro" id="catofinterest">
-        <label for="catofinterest">Moda</label>
-        <input type="checkbox" value="Moda" id="catofinterest">
-        <label for="catofinterest">Hogar</label>
-        <input type="checkbox" value="Hogar" id="catofinterest">
-        <label for="catofinterest">Juguetería</label>
-        <input type="checkbox" value="Juguetería" id="catofinterest">
-        <label for="catofinterest">Electro</label>
-        <input type="checkbox" value="Electro" id="catofinterest">
-        
-
-        <br>
-        <br>
-        <br>
     
+    <main>
+        <p class="title">Vamos a crear tu cuenta!</p>
+        <form action="resultado.html" method="POST">
 
-        <label for="avatar ">Foto de Perfil</label>
-        <input type="file" value="avatar" id="avatar">
+            <div class="vertical">
+                <label minlength="3" for="name&sirname">Nombre y Apellido</label>
+                <input required type="text" name="name&sirname" id="name&sirname" placeholder="Nombre y Apellido">
 
-        <label minlength="3" for="adress">Contraseña</label>
-        <input required type="password" name="adress" id="adress" placeholder="Contraseña">
+                <label minlength="3" for="username">Nombre de Usuario</label>
+                <input required type="text" name="username" id="username" placeholder="Nombre de Usuario">
 
-        <label minlength="3" for="adress">Confirmar Contraseña</label>
-        <input required type="password" name="adress" id="adress" placeholder="Contraseña">
+                <label for="dateofbirth">Fecha de Nacimiento</label>
+                <input required type="date" name="dateofbirth" id="dateofbirth" placeholder="Fecha de Nacimiento">
 
-        <input class="botones-de-accion" type="submit" value="Enviar">
-        <input class="botones-de-accion" type="submit" value="Borrar Todo">
-        
+                <label minlength="3" for="adress">Dirección</label>
+                <input required type="text" name="adress" id="adress" placeholder="Ej: Calle 484 nro 2929">
 
-    </form>
+            </div>
 
-</main>
+            <div class="compravende">
+            <p class="title2">Tipo de Cuenta</p>
+            
+            <input class="compradores" type="radio" value="Comprar" id="typeofaccount">
+            <label for="typeofaccount">Comprador</label>
+            <input class="compradores" type="radio" value="Vender" id="typeofaccount">
+            <label for="typeofaccount">Vendedor</label>
+        </div>
+
+
+
+            <div class="vertical1">
+
+            <p class="title2">Categorias de interés</p>
+            <input  class="cat" type="checkbox" value="Electro" id="catofinterest">
+            <label for="catofinterest">Electro</label>
+            <br>
+            <input class="cat" type="checkbox" value="Moda" id="catofinterest">
+            <label for="catofinterest">Moda</label>
+            <br>
+            <input class="cat" type="checkbox" value="Hogar" id="catofinterest">
+            <label for="catofinterest">Hogar</label>
+            <br>
+            <input class="cat" type="checkbox" value="Juguetería" id="catofinterest">
+            <label for="catofinterest">Juguetería</label>
+            <br>
+            <input class="cat" type="checkbox" value="Electro" id="catofinterest">
+            <label for="catofinterest">Electro</label>
+           
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="vertical">
+
+            <label for="avatar ">Foto de Perfil</label>
+            <input type="file" value="avatar" id="avatar">
+
+            <label minlength="3" for="adress">Contraseña</label>
+            <input required type="password" name="adress" id="adress" placeholder="Contraseña">
+
+            <label minlength="3" for="adress">Confirmar Contraseña</label>
+            <input required type="password" name="adress" id="adress" placeholder="Contraseña">
+
+
+            <br>
+            <br>
+            <br>
+        </div> 
+        <div class="botones">
+            <input class="botones-de-accion" type="submit" value="Enviar">
+            <input class="botones-de-accion1" type="submit" value="Borrar Todo">
+
+        </div>
+
+
+        </form>
+
+    </main>
 
 </body>
 
