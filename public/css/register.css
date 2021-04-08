@@ -8,7 +8,7 @@ header {background-color : #EAC926;
      }
     
     .main-header{
-        position:fixed ;
+         
         width: 100%;
         
     }
@@ -79,13 +79,13 @@ top:10px
          flex-direction: column;
      }
      .botones-de-accion {
-         width: 80%;
+         width: 100%;
          color: white;
          background-color: #0081FF;
          border-radius: 5px;
      }
      .botones-de-accion1 {
-        width: 80%;
+        width: 100%;
         background-color: #DE3E44;
     border-radius: 5px;
     color: white;
