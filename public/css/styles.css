@@ -34,21 +34,40 @@ margin-right: auto;}
 .main-navbar ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0;}
     
-    
+.main-navbar{
+    display: flex;
+    flex-direction: row;
 }
+    
+    
 .left-navbar{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     
 }
 
 .right-navbar{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
    
+
 }
+
+.divlista1 {
+
+    width:25%
+}
+
+.divlista2 {
+
+    width:25%;
+    margin-left: 50%;
+}
+
 .main-navbar a{
     text-decoration: none;
     color: #222222;
@@ -103,6 +122,8 @@ display: none;
 }
 
 
+
+}
 article {
     background-color: white;
    box-sizing: border-box;
@@ -151,6 +172,8 @@ width: 40%
 ;
 }
 
+
+
 @media (min-width:361px){
 .productos {
     display: flex;
@@ -161,9 +184,11 @@ width: 40%
 
 }
 main section div.productos article{
-    width: 45%;
+    width: 25%;
 }
 
 .burger-menu{
     display:none;
+}
+
 }

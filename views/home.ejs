@@ -17,7 +17,7 @@
             <div class="productos">
                 
                 
-                <% products.forEach(product => { %>
+                <% products.forEach (product => { %>
                     <%- include('partials/product', { product }) %>
                 <% })%>
 
@@ -28,13 +28,9 @@
             <h3>Ofertas</h3>
             <div class="productos">
                 
-                <article>
-                    <img src="/images/img-tv-samsung-smart.jpg" width="360" alt="SmartTv Samsung" class="product_img">
-                    <i class="fas fa-truck"></i>
-                    <p class="precio">$23.200</p>
-                    <p class="descuento">5% off</p>
-                    <h4 class="descripcion">SmartTv Samsung 43"</h4>
-                </article>
+                <% products.forEach (product => { %>
+                    <%- include('partials/product', { product }) %>
+                <% })%>
             </div>
             </div>
         </section>

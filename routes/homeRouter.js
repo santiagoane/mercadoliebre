@@ -4,6 +4,8 @@ const router = express.Router();
 
 const controladorHome = require ('../controller/homeController')
 
+
+
 router.get('/', (req,res) => {
     //leo todo el array de products en el controlador homeController
     const products = controladorHome.leerTodos();
