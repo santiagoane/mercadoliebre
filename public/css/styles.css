@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box; 
+}
+
+.logo { width: 45%}
+
+header {background-color : #EAC926;
+padding:20px;
+z-index: 100;
+
+ }
+
+.main-header{
+    
+    width: 100%;
+}
+
+.sub-header { text-align: center;
+font-weight: 400;
+}
+
+main {background-color : lightgray;
+width :100%;
+margin-left: auto;
+margin-right: auto;}
+
+
+.product_img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.left-navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.right-navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+    
+}
+
+.burger-menu { background-color: #0343A9;
+    border: 0px;
+    margin:auto;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    }
+
+
+
+.search {
+    width: 50%
+}
+.align-left {
+text-align: left;
+padding: 1%;
+width: 60%}
+
+
+
+
+.banner {
+    width: 100%;
+}
+
+.icon {
+    color: #03264C;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+.contenedor-detalles  {
+
+display: none;
+}
+
+
+article {
+    background-color: white;
+   box-sizing: border-box;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+ 
+   
+}
+
+.fa-truck{
+  
+   
+    position: relative;
+    top: -20px;
+    right:-80%;
+    color: limegreen;
+    border: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 6px;
+    
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.descuento {
+    color: limegreen;
+    width: 80%;
+    font-size: 16px;
+}
+.descripcion {
+    color: rgb(0,0,0, 0.5);
+}
+
+
+.elfinal {
+    text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 40%
+;
+}
+
+@media (min-width:361px){
+.productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+main section div.productos article{
+    width: 45%;
+}
+
+.burger-menu{
+    display:none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <%- include('partials/head') %>
+
+<body>
+    
+    <%- include('partials/header') %>
+
+    <section>
+        <img class="banner" src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas">
+    </section>
+    <main>
+        <section class="primera seccion">
+
+            <h3>Basado en tu última visita</h3>
+            <div class="productos">
+                
+                
+                <% products.forEach(product => { %>
+                    <%- include('partials/product', { product }) %>
+                <% })%>
+
+                
+        </section>
+
+        <section>
+            <h3>Ofertas</h3>
+            <div class="productos">
+                
+                <article>
+                    <img src="/images/img-tv-samsung-smart.jpg" width="360" alt="SmartTv Samsung" class="product_img">
+                    <i class="fas fa-truck"></i>
+                    <p class="precio">$23.200</p>
+                    <p class="descuento">5% off</p>
+                    <h4 class="descripcion">SmartTv Samsung 43"</h4>
+                </article>
+            </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+<%- include('partials/footer') %>
+
+</html>

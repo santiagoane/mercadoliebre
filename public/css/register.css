@@ -1,0 +1,92 @@
+
+
+
+header {background-color : #EAC926;
+    padding:20px;
+    z-index: 100;
+    
+     }
+    
+    .main-header{
+         
+        width: 100%;
+        
+    }
+    .logo {
+        width: 150px;
+    }
+    
+    main {
+        box-sizing: border-box;
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+    body {
+        background-color: #ECECEC;;
+        
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+    }
+     .title  {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 25px;
+     }
+
+     .title2{
+        font-weight: bold;
+        font-size: 20px;
+     }
+
+     .vertical {
+         display: flex;
+         flex-direction: column;  
+         color: grey;
+         font-size: 16px;
+        
+     }
+
+     .vertical1 {
+       font-size: 16px;
+    }
+
+     input {
+         border-radius: 3%;
+         border: none;
+         height: 30px;
+         margin-top: 12px;
+         margin-bottom: 12px;
+     }
+
+     .compradores {
+         position: relative;
+         top: 10px
+         
+     }
+     .cat{
+position: relative;
+top:10px
+
+     }
+     .compravende {
+         font-size: 16px;
+     }
+
+     .botones{
+         display: flex;
+         flex-direction: column;
+     }
+     .botones-de-accion {
+         width: 100%;
+         color: white;
+         background-color: #0081FF;
+         border-radius: 5px;
+     }
+     .botones-de-accion1 {
+        width: 100%;
+        background-color: #DE3E44;
+    border-radius: 5px;
+    color: white;
+     }
