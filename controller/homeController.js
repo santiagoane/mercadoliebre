@@ -3,10 +3,17 @@ let visitados = require ('../data/datosProductos')
 let homeController = {
 
 
-    leerTodos: function(){
+    leerTodos: (req,res) => {
+
         console.log('leo los productos desde data');
-        return visitados 
+    
+        const products = [...visitados]
+
+        res.render("home", {products})
+
+    }        
+            
     }
-}
+
 
 module.exports = homeController

@@ -23,22 +23,9 @@ app.set('view engine', 'ejs')
 
 // llamo al ruteo
 app.use('/', homeRouter)
-//app.use('/', userRouter)
-//app.use('/products', productRouter)
+app.use('/', userRouter)
+app.use('/products', productRouter)
 
-
-app.get('/', (req, res) => {
-    res.render('home');
-});
-
-app.get('/register', (req, res) => {
-    res.render('register');
-});
-
-app.get('/login', (req, res) => {
-    res.render('login');
-
-});
 
 app.listen(port || 3000 , () => {
     console.log('Example app listening on port ' );
