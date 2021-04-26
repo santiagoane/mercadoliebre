@@ -7,18 +7,47 @@ let productController = {
     create: (req, res) => {
         console.log('quiero que me creen!');
         res.render('createProduct')
-    }
+    },
 
     // No entiendo porque mandamos aca a products/cart si todavia no esta creada esa vista????
 //a cart lo voy a agregar cuando llegue su momento!
 
-  /*  cart: (res, req) => {
-        console.log('soy el controlloador de cart');
+   cart: (req, res) => {
+        res.send('cart')
+    },
 
-        res.render('createProduct')
+    // mostrará  los products
+
+    show: (req, res) => {
+
+        res.send ('aca estan los products')
+    },
+
+    search: (req,res) => {
+
+        res.send ('resultado de busqueda')
+    },
+
+    edit: (req, res ) => {
+
+        res.send ('estamos editando')
+    },
+
+    store: (req, res ) => {
+
+        res.send ('guardando')
+    },
+
+    update: (req,res) => {
+        res.send ('actualizando')
+    },
+
+    /*destroy: (req,res) => {
+
+        res.send ('destruir')
     }*/
 
-}
 
+}
 
 module.exports = productController

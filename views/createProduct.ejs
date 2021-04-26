@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <%- include('partials/head') %>
+<%- include('partials/head') %>
+
+    <link rel="stylesheet" href='/css/register.css' />
 
     <body>
-        
+
         <%- include('partials/header') %>
 
-        <section>
-            <img class="banner" src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas">
-        </section>
+            <section>
+                <img class="banner" src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas">
+            </section>
 
-        <main>
+            
 
-            <h3>Quiero funcionar!</h3>
-        </main>
+                <h3 class="title">Alta de Producto</h3>
+
+                <form action="/" method="POST">
+
+                    <div class="vertical">
 
 
+                        <label minlength="3" for="name"> Nombre</label>
+                        <input  type="text" name="nombre" id="name">
+
+                        <label for="imagen"> </label>
+                        <input type="file" name="foto" id="imagen">
+
+                        <label for="precio"> Precio </label>
+                        <input type="text" name="precio" id="precio">
+
+                        <label for="desc"> Descuento </label>
+                        <input type="text" name="descuento" id="desc">
+
+
+
+                    </div>
+                </form>
+
+                <div class="botones">
+                    <input class="botones-de-accion" type="submit" value="Enviar">
+                    <input class="botones-de-accion1" type="submit" value="Borrar Todo">
+
+                </div>
+
+           
+    </body>
 
 
 </html>
